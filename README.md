@@ -1,6 +1,5 @@
 <div align="center">
    <!-- Logo nội bộ -->
-   <img alt="TutorBond Logo" src="../photo/IMG_0027.PNG" style="max-width:220px; border-radius:16px; box-shadow:0 6px 24px -6px rgba(0,0,0,0.25);" />
    <h1 style="margin-top:12px; font-size:2.4rem; font-weight:800; letter-spacing:-1px; background:linear-gradient(135deg,#FF6A00,#CC4F00); -webkit-background-clip:text; color:transparent;">TutorBond CV Screener</h1>
 </div>
 
@@ -49,19 +48,4 @@ tutorbond-cv-screener/
   constants.ts         // Danh sách môn học, cấu hình mặc định
 ```
 
-## Tuỳ biến
 
-- Thêm trường lọc: cập nhật interface `TutorProfile` + `FilterBar.tsx`.
-- Đổi màu: sửa biến trong `index.css`.
-- Xuất dữ liệu: thêm nút export (CSV) đọc từ mảng `tutorProfiles`.
-
-## Roadmap
-
-- [ ] Export CSV danh sách lọc.
-- [ ] Matching score (tuỳ chọn AI).
-- [ ] Lưu bộ lọc gần nhất (localStorage).
-- [ ] i18n.
-
-## Giấy phép
-
-Dùng nội bộ. Không phân phối công khai.
